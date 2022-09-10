@@ -1,0 +1,33 @@
+# Distribution / packaging
+*.egg
+*.egg-info/
+.Python
+.eggs/
+build/
+develop-eggs/
+dist/
+eggs/
+sdist/
+wheels/
+
+# Reports
+.tox/
+
+# IntelliJ ignores
+*.iml
+.idea/
+
+# Build
+*.orig
+*.pyc
+__pycache__/
+
+# pyenv local config
+.python-version
+
+# Ignore useless OS X's dirs
+.DS_Store
+
+# py.test
+/.cache/
+/.pytest_cache/

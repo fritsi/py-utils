@@ -1,0 +1,22 @@
+[FORMAT]
+
+max-line-length=119
+
+[MESSAGES CONTROL]
+
+disable=too-few-public-methods,
+        too-many-arguments,
+        too-many-branches,
+        too-many-instance-attributes,
+        too-many-lines,
+        too-many-locals,
+        too-many-return-statements,
+        too-many-statements,
+        wrong-import-order
+
+enable=unnecessary-lambda,
+       unused-import
+
+[SIMILARITIES]
+
+ignore-imports=yes
